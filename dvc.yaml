@@ -1,0 +1,15 @@
+stages:
+  prepare_data:
+    cmd: python scripts/run_prepare_data.py
+    deps:
+    - data/raw/Electronics_5.json.gz
+    - scripts/run_prepare_data.py
+    outs:
+    - data/processed/interactions.csv
+  train_baseline:
+    cmd: python scripts/run_train_baseline.py
+    deps:
+    - data/processed/interactions.csv
+    - scripts/run_train_baseline.py
+    outs:
+    - outputs/top_items.txt

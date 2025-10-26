@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/690c1274b0574ecb87c382b2c46d713d/artifacts
+end_time: 1761476090611
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 690c1274b0574ecb87c382b2c46d713d
+run_name: baseline_popularity
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761476088062
+status: 3
+tags: []
+user_id: aloag

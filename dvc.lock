@@ -1,0 +1,34 @@
+schema: '2.0'
+stages:
+  prepare_data:
+    cmd: python scripts/run_prepare_data.py
+    deps:
+    - path: data/raw/Electronics_5.json.gz
+      hash: md5
+      md5: e4524af6c644cd044b1969bac7b62b2a
+      size: 495854086
+    - path: scripts/run_prepare_data.py
+      hash: md5
+      md5: bd86cebc115efa8009c9ff42ecb0af64
+      size: 1857
+    outs:
+    - path: data/processed/interactions.csv
+      hash: md5
+      md5: c2cb1cb894be9dddefcbba948acb7e36
+      size: 25802235
+  train_baseline:
+    cmd: python scripts/run_train_baseline.py
+    deps:
+    - path: data/processed/interactions.csv
+      hash: md5
+      md5: c2cb1cb894be9dddefcbba948acb7e36
+      size: 25802235
+    - path: scripts/run_train_baseline.py
+      hash: md5
+      md5: 159aa8379ccd44e223517ad5e523f3b1
+      size: 1701
+    outs:
+    - path: outputs/top_items.txt
+      hash: md5
+      md5: fac790a8c7f111e703770ed760ba9f96
+      size: 68

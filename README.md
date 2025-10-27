@@ -92,7 +92,9 @@ Call endpoint (e.g., `POST /recommend`) with a user ID to get top‑N product re
 
 ## 🎥 MLFlow and Evidently Screenshots 
 <img width="1915" height="597" alt="image" src="https://github.com/user-attachments/assets/2af9ed84-5720-472a-9742-5d2e257e5f7c" />
+
 - **Data Drift with Evidently**
+  
   <img width="1838" height="781" alt="image" src="https://github.com/user-attachments/assets/fd4bdb04-2fb2-43f2-afa1-0c21c0cf9889" />
 
   <img width="1837" height="823" alt="image" src="https://github.com/user-attachments/assets/c833749e-5596-4d90-9a53-dc951b330442" />

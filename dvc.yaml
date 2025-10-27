@@ -13,3 +13,11 @@ stages:
     - scripts/run_train_baseline.py
     outs:
     - outputs/top_items.txt
+  drift_detection:
+    cmd: python scripts/run_drift_report.py
+    deps:
+    - data/processed/interactions.csv
+    - data/processed/interactions_drifted.csv
+    - scripts/run_drift_report.py
+    outs:
+    - outputs/drift_report.html

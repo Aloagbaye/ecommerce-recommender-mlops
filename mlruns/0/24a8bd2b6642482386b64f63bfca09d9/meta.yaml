@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/24a8bd2b6642482386b64f63bfca09d9/artifacts
+end_time: 1761529024916
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 24a8bd2b6642482386b64f63bfca09d9
+run_name: als_matrix_factorization
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761529004863
+status: 4
+tags: []
+user_id: aloag
